@@ -12,9 +12,9 @@ nav{
     background: #784646; 
     list-style: none;    
 }
-nav .nl{
 
-}
+nav .nl{}
+
 nav .nl img{
     float: left;
     justify-content: flex-start;

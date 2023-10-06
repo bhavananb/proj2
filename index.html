@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<meta charset="utf-8">
+		<title>Book a Book</title>
+		<link rel="stylesheet" href="stylenew.css" type="text/css">
+		<link rel="icon" type = "image/icon" href = "Images/favicon.ico">
+
+        <!--
+            Task 1a)
+                the <meta> tag is used to describe our website when searching for it using a web browser
+                that gives a general description of the site before visiting.
+        -->
+        <meta
+            name="description"
+            content="Our library is especially suited for students, professors and researchers. We feature all types of media, 
+                     professionally suited for academic research and learning. We also have non-academic media suited for all types
+                     of people and ages">
+
+	</head>
+
+	<body>
+
+		<section>            
+
+			<!-- This <div> is for the header -->
+			<!--
+                Task 4b)
+                    <header> is used for introductionary content
+                    <img> to store our homepage photo
+                    We also have a paragraph that gives some information to the user about our webpage
+            -->
+			<header class="head">
+
+				<div style="text-align: center;">
+					<!--
+						task 4c)
+						One of many images featured on our site.
+						We have all our images stored inside /images/
+					-->
+
+
+                <!--
+                    Task 4f)
+                        <table> allows us to set elements in rows and columns.
+                        In this instance we used table to make a nice navigation window for our
+                        users so that they will be able to navigate our site better.
+                        <tr> is a table row. We only had one since we wanted everything to be on a single line. 
+                -->
+			<!--
+				<table>
+					<tr>
+							<td><a href="home.html">Home</a> </td>
+							<td><a href="book.html">Book a book!</a> </td>
+							<td><a href="discovery.html">Discovery</a> </td>
+							<td><a href="about.html">About us</a> </td>
+							<td><a href="login.html">Log in</a> </td>
+					</tr>
+				</table>
+			-->
+				<nav>
+					<div class="nl"><img src="BookABook.svg"></div>
+					<ul class="navigation-list">
+					<!--	<li><a href="#"><img src="Images/BookABook_Logo.png" alt="Book a Book"
+									width=100px; height=50px; ></a></li>
+					-->
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Book a book!</a></li>
+						<li><a href="#">Discovery</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Log in</a></li>
+					</ul>
+				</nav>
+			</header>
+		</section>
+
+		<div id="main">
+			<fieldset>
+
+				<legend>
+					About this page
+				</legend>
+
+				<h3>
+                    The official BookaBook page
+                </h3>
+    
+                <p>
+                    On this page you can book books and get a weekly discovery of different academic media
+                    based on your previous selections of booked media. We also feature non-academic material
+                    suitable for all types of people of any age. You're always welcome to BookABook!
+                </p>
+
+			</fieldset>
+
+
+			<!--
+				https://css-tricks.com/guides/
+			-->
+			<section class="section1">
+				<h1> Upcoming Events</h1>
+				<div class="articles-grid">
+					<article class="book1">
+						<a href="">
+							<img class="guide1-img" src="Images/covers/book_cover_1.webp" 
+													width="240" height="320" alt="picture-of-book1">
+						</a>
+						<div class="book1-content">
+							<h2>
+								<a href="">
+									Topic: book a book 
+								</a>
+							</h2>
+							<div class="guide-time">
+								<span class="date-prefix">Last Updated</span>
+								<time datetime>"2023-09-15"</time>
+							</div>
+							<div class="guide-excerpt">
+								<p>
+								All about the book, we can see <a href="">here</a>
+								</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="book2">
+						<a href="">
+							<img class="guide2-img" src="Images/covers/book_cover_2.webp" 
+													width="240" height="320" alt="picture-of-book2">
+						</a>
+						<div class="book2-content">
+							<h2>
+								<a href="">
+									Topic: book a book
+								</a>
+							</h2>
+							<div class="guide-time">
+								<span class="date-prefix">Last Updated</span>
+								<time datetime>"2023-09-15"</time>
+							</div>
+							<div class="guide-excerpt">
+								<p>
+								All about the book, we can see <a href="">here</a>
+								</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="book3">
+						<a href="">
+							<img class="guide3-img" src="Images/covers/book_cover_3.webp" 
+													width="240" height="320" alt="picture-of-book3"></a>
+						<div class="book3-content">
+							<h2>
+								<a href="">
+									Topic: book a book
+								</a>
+							</h2>
+							<div class="guide-time">
+								<span class="date-prefix">Last Updated</span>
+								<time datetime>"2023-09-15"</time>
+							</div>
+							<div class="guide-excerpt">
+								<p>
+								All about the book, we can see <a href="">here</a>
+								</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="book4">
+						<a href="">
+							<img class="guide4-img" src="Images/covers/book_cover_4.webp" 
+													width="240" height="320" alt="picture-of-book4"></a>
+						<div class="book4-content">
+							<h2>
+								<a href="">
+									Topic: book a book
+								</a>
+							</h2>
+							<div class="guide-time">
+								<span class="date-prefix">Last Updated</span>
+								<time datetime>"2023-09-15"</time>
+							</div>
+							<div class="guide-excerpt">
+								<p>
+								All about the book, we can see <a href="">here</a>
+								</p>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="section2">
+				<div class="recommended-scroll">
+					<article class="recommended-item">
+						<img src="Images/covers/book_cover_1.webp"
+							 alt="Book cover 1" width="240" height="320">
+						<h3>🕮 The Enigmatic Echoes</h3>
+						<p>👤 Penelope Hawthorne</p>
+						<p><a href="genres/mystery.html">Mystery</a>, <a href="genres/thriller.html">Thriller</a>, <a href="genres/suspense">Suspense</a></p>
+					</article>
+					<article class="recommended-item">
+						<img src="Images/covers/book_cover_2.webp"
+							 alt="Book cover 2" width="240" height="320">
+						<h3>🕮 Echoes of Elysium</h3>
+						<p>👤 Victoria Sinclair</p>
+						<p><a href="genres/fantasy.html">Fantasy</a>, <a href="genres/adventure.html">Adventure</a></p>
+					</article>
+					<article class="recommended-item">
+						<img src="Images/covers/book_cover_3.webp"
+							 alt="Book cover 3" width="240" height="320">
+						<h3>🕮 The Clockwork Chronicles</h3>
+						<p>👤 Archibald Wainwright</p>
+						<p><a href="genres/steampunk.html">Steampunk</a>, <a href="genres/historical_fantasy.html">Historical Fantasy</a></p>
+					</article>
+					<article class="recommended-item">
+						<img src="Images/covers/book_cover_4.webp"
+							 alt="Book cover 4" width="240" height="320">
+						<h3>🕮 Whispers in the Shadows</h3>
+						<p>👤 Evelyn Blackwood</p>
+						<p><a href="genres/horror.html">Horror</a>, <a href="genres/supernatural.html">Supernatural</a></p>
+					</article>
+				</div>
+			</section>
+
+
+        <br>
+
+			<!-- The bottom part of the front page / home page -->
+
+			<fieldset id="contact">
+
+				<label>
+					Phone number:
+					<br>
+					123456789
+				</label>
+
+				<br>
+
+                <label>
+                    Address:
+                    <br>
+                    Увс аймгийн Төв номын сан
+                </label>
+
+                <br>
+
+				<!--
+					Task 4d)
+					<iframe> is used to display a web page inside another webpage.
+					In this instance we used <iframe> to display google maps to visually display
+					the address of our library
+				-->
+				<span>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d471633.11796563095!2d91.68803190376879!3d49.95031818209453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d49d78fa89bbbf1%3A0x8e7895f58a1a96e1!2z0KPQstGBINCw0LnQvNCz0LjQudC9INCi06nQsiDQvdC-0LzRi9C9INGB0LDQvQ!5e0!3m2!1sen!2sno!4v1694173575756!5m2!1sen!2sno" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</span>
+
+
+			</fieldset>
+
+			<section>
+				<!--This <div> is for the footer-->
+				<footer>
+					<div>
+						<table>
+							<tr>
+								<!--
+									task 4g)
+									Properly displaying ways to contact us, to the user.
+									- Email
+									- Phone
+									- Social Media
+								-->
+								<th>Contact Us: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</th>
+								<th><a href="#leavefeedback">Leave feedback</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</th>
+								<th><a href="#aboutus">About Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</th>
+								<th>
+									Follow Us: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</th>
+								<th><a href="sitemap.html">Sitemap</a>
+								</th>
+							</tr>
+
+							<tr>
+								<td>Phone Nr: 123456789</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Email: bookabook@fakemail.com</td>
+								<td></td>
+								<td></td>
+								<td><a href="#instagram">Instagram</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#facebook">Facebook</a></td>
+								<td></td>
+							</tr>
+						</table>
+						<br><br>
+
+						<p>Copyright 1769-2023 © by Ådne, Omar, Tung, Aayush</p>
+
+					</div>
+				</footer>
+			</section>
+		</div>
+
+		<!--
+			Task 4h)
+			Included aside type content where our user can log in and create a user account.
+		-->
+		<aside>
+			<fieldset>
+				<h2>Login</h2>
+
+				<label>Username: </label>
+				<input type="text" id="username" name="username">
+
+				<label>Password: </label>
+				<input type="text" id="password" name="password">
+				<br>
+
+				<p>Not registered? <a href="signup.html">Sign up!</a>
+			</fieldset>
+		</aside>
+
+	</body>
+
+</html>
